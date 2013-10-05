@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_refresh"
+        android:title="Refresh"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_clear_notifications"
+        android:title="Clear Notifications"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_stop_polling"
+        android:title="Stop polling"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/home_action_settings"
+        android:actionLayout="@layout/action_spinner"
+        android:showAsAction="always"
+        android:enabled="true"/>
+    <item
+        android:showAsAction="always"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/home_action_refresh"
+        android:icon="@drawable/navigation_refresh_wht"
+        android:showAsAction="always"
+        android:enabled="true"/>
+</menu>

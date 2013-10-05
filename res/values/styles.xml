@@ -1,0 +1,27 @@
+<resources>
+    <style name="AppBaseHaloLight" parent="@android:style/Theme.Holo.Light">
+    </style>
+    <style name="AppBaseHaloDark" parent="@android:style/Theme.Holo">
+    </style>
+    <style name="AppTheme" parent="AppBaseHaloLight">
+    </style>
+    <style name="TextAppearanceMedium" >
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextAppearanceSmall">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="HeadingText">
+        <item name="android:textColor">@drawable/gray_background</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="NormalText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="SmallText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="action_menu">
+        <item></item>
+        <item>All</item>
+        <item>Whats hot</item>
+        <item>Friends</item>
+    </string-array>
+    <string-array name="drawer_menu">
+        <item>Home</item>
+        <item>Activity Sample</item>
+    </string-array>
+</resources>
